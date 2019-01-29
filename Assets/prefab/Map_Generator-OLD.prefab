@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5903375620477762016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5903375620477762022}
+  - component: {fileID: 5903375620477762023}
+  m_Layer: 0
+  m_Name: Map_Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5903375620477762022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5903375620477762016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5903375620477762023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5903375620477762016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 773b82b0e318ce8428ee7f2ad5abf030, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 10
+  height: 10
+  minGroundPasses: 2
+  maxGroundPasses: 3
+  groundObjectPercentChance: 20
+  spawnPercentChance: 10
+  roomChance: 2
+  npcChance: 10
+  terrainOffset: 4.7
+  terrainTiles:
+  - {fileID: 6625294811691108201, guid: 1711de5ab550c8b44b0ca0fb55644bac, type: 3}
+  groundObjects:
+  - {fileID: 2578637898747363479, guid: 17446845f3c29cf499228b7b362cd5e4, type: 3}
+  - {fileID: 3312682872533567602, guid: 70af7ce6ebfc2004d92d0454827d8ac3, type: 3}
+  - {fileID: 204725611047474324, guid: cd8024ff7e17e3f478ff019c44ccdeae, type: 3}
+  - {fileID: 204725611047474324, guid: e5d0998f1134bc34e830f9dacfb6ac8b, type: 3}
+  - {fileID: 204725611047474324, guid: f0f97c6eab000134089d97bb84d71a12, type: 3}
+  - {fileID: 204725611047474324, guid: 1e2522b76da57644694bbbcee910b21c, type: 3}
+  - {fileID: 8312898857016595832, guid: b5222a93a10eee64b929a462556f4c55, type: 3}
+  - {fileID: 204725611047474324, guid: b82ab676a09ab7e47a2a6cde32800ab7, type: 3}
+  - {fileID: 7993490522667342252, guid: 82caaa648be591b41b4566267755dd83, type: 3}
+  spawnTile:
+  - {fileID: 1848258990351307536, guid: 707ca0e959e41fa46b6d1cdff21bf985, type: 3}
+  secretRoom:
+  - {fileID: 4924462463823129883, guid: 3b08d656f84c8e7448b2b99c6e8027ac, type: 3}
+  npcList:
+  - {fileID: 4780998248787163399, guid: 55a4d841a2212b644acf34f828cd2929, type: 3}
+  - {fileID: 7662146405816248928, guid: 9a3646dd271d64141b26799aeaa954f8, type: 3}
+  hubTile: {fileID: 6009686215713955673, guid: cff17f73ad78323469fa74120139e2af, type: 3}
+  terrain: []
+  groundClutter: []
+  spawnLocations: []
+  hiddenRoom: []
+  npcs: []
+  hub: []
